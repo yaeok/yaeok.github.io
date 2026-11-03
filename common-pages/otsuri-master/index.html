@@ -3,35 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="おつりマスターの公式サポート・ポリシーページです。">
-  <title>おつりマスター｜サポート・ポリシー</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="おつりマスターの公式案内、プライバシーポリシー、利用規約、サポート情報です。">
+  <title>おつりマスター｜公式サポート</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">本文へ移動</a>
   <header class="site-header">
     <nav class="nav" aria-label="メインナビゲーション">
-      <a class="brand" href="index.html"><span class="coin" aria-hidden="true">¥</span><span>おつりマスター</span></a>
-      <div class="nav-links"><a href="privacy-policy.html">プライバシー</a><a href="terms.html">利用規約</a><a href="support.html">サポート</a><a href="feedback.html">要望・バグ報告</a></div>
+      <a class="brand" href="index.html" aria-current="page"><span class="brand-mark" aria-hidden="true">¥</span><span>おつりマスター</span></a>
+      <div class="nav-links"><a href="privacy-policy.html">プライバシー</a><a href="terms.html">利用規約</a><a href="support.html">サポート</a><a href="feedback.html">お問い合わせ</a></div>
     </nav>
   </header>
-  <main>
-    <section class="hero">
-      <div>
-        <div class="eyebrow">毎日の買い物が、頭の体操に。</div>
-        <h1>おつりマスター</h1>
-        <p class="lead">おつり、割引、単価、予算。暮らしに身近なお金の計算を、6つのゲームで楽しく練習できるアプリです。</p>
-        <a class="button" href="support.html">サポートを見る</a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">毎日の買い物が、頭の体操に。</p>
+        <h1 id="hero-title">おつりマスター</h1>
+        <p class="lead">おつり、まとめ買い、割引、単価、予算。暮らしのお金を題材にした6つのゲームを、1回1〜5分で楽しめる計算パズルです。</p>
+        <div class="actions"><a class="button" href="support.html">使い方を見る</a><a class="text-link" href="feedback.html">問い合わせる<span aria-hidden="true"> →</span></a></div>
       </div>
-      <div class="hero-mark" aria-hidden="true"><span>¥</span><small>10</small></div>
+      <div class="receipt-art" aria-hidden="true"><span class="receipt-label">CHANGE</span><strong>¥</strong><span class="receipt-line"></span><small>10 QUESTIONS</small></div>
     </section>
-    <section class="card-grid" aria-label="ご案内">
-      <a class="card" href="privacy-policy.html"><span class="icon" aria-hidden="true">◉</span><h2>プライバシーポリシー</h2><p>保存される情報と、その取り扱いについて。</p></a>
-      <a class="card" href="terms.html"><span class="icon" aria-hidden="true">≋</span><h2>利用規約</h2><p>アプリをご利用いただく際の条件について。</p></a>
-      <a class="card" href="support.html"><span class="icon" aria-hidden="true">◎</span><h2>サポート</h2><p>よくある質問とお問い合わせ窓口。</p></a>
-      <a class="card" href="feedback.html"><span class="icon" aria-hidden="true">✦</span><h2>改善要望・バグ報告</h2><p>気づいたことや困ったことを開発者へ届ける。</p></a>
+    <section aria-labelledby="features-title">
+      <p class="kicker">Play &amp; Learn</p><h2 id="features-title">買い物感覚で、計算力を磨く</h2>
+      <div class="feature-grid"><article><span aria-hidden="true">01</span><h3>6つのゲーム</h3><p>3段階の難易度と、対応ゲームの60秒タイムアタック。</p></article><article><span aria-hidden="true">02</span><h3>端末内に保存</h3><p>プレイ履歴、回答、自己ベスト、設定は利用中の端末に保存。</p></article><article><span aria-hidden="true">03</span><h3>気軽に遊べる</h3><p>ログイン・広告・アプリ内課金なし。基本プレイはオフライン対応。</p></article></div>
+    </section>
+    <section class="link-grid" aria-label="公式情報">
+      <a class="link-card" href="privacy-policy.html"><span class="card-icon" aria-hidden="true">●</span><h2>プライバシーポリシー</h2><p>端末内データと外部送信の有無をご案内します。</p><span class="card-action">確認する →</span></a>
+      <a class="link-card" href="terms.html"><span class="card-icon" aria-hidden="true">≋</span><h2>利用規約</h2><p>アプリの利用条件と大切な注意事項です。</p><span class="card-action">確認する →</span></a>
+      <a class="link-card" href="support.html"><span class="card-icon" aria-hidden="true">?</span><h2>サポート</h2><p>基本的な使い方と、よくある質問をまとめています。</p><span class="card-action">確認する →</span></a>
+      <a class="link-card" href="feedback.html"><span class="card-icon" aria-hidden="true">✦</span><h2>お問い合わせ</h2><p>改善要望、バグ報告、その他のお問い合わせはこちら。</p><span class="card-action">連絡する →</span></a>
     </section>
   </main>
-  <footer class="site-footer">© 2026 おつりマスター</footer>
+  <footer class="site-footer"><div><strong>おつりマスター</strong><p>毎日の買い物を頭の体操にする、お金のパズルゲーム。</p></div><nav aria-label="フッターナビゲーション"><a href="privacy-policy.html">プライバシー</a><a href="terms.html">利用規約</a><a href="support.html">サポート</a><a href="feedback.html">お問い合わせ</a></nav><small>© 2026 おつりマスター</small></footer>
 </body>
 </html>
-
