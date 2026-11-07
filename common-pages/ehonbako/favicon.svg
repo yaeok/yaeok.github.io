@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="えほんばこ">
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="#d8a83e" stroke="#382923" stroke-width="4"/>
+  <path d="M15 17h10v29H15z" fill="#b85a3c" stroke="#382923" stroke-width="3"/>
+  <path d="M25 12h11v34H25z" fill="#53644c" stroke="#382923" stroke-width="3"/>
+  <path d="M36 20h12v26H36z" fill="#7296a0" stroke="#382923" stroke-width="3"/>
+  <path d="M11 47h42v6H11z" fill="#d8c397" stroke="#382923" stroke-width="3"/>
+</svg>
