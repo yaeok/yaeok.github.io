@@ -4,12 +4,15 @@
 
 ## 決算クエスト
 
-- 入口: [`kessan-quest/index.html`](https://yaeok.github.io/kessan-quest/)
-- プライバシーポリシー: [`kessan-quest/privacy-policy.html`](https://yaeok.github.io/kessan-quest/privacy-policy.html)
-- 利用規約: [`kessan-quest/terms.html`](https://yaeok.github.io/kessan-quest/terms.html)
-- サポート: [`kessan-quest/support.html`](https://yaeok.github.io/kessan-quest/support.html)
-- 改善要望・不具合報告: [`kessan-quest/feedback.html`](https://yaeok.github.io/kessan-quest/feedback.html)
-- 端末データ削除: [`kessan-quest/account-deletion.html`](https://yaeok.github.io/kessan-quest/account-deletion.html)
+- 入口: [`common-pages/kessan-quest/index.html`](https://yaeok.github.io/common-pages/kessan-quest/)
+- プライバシーポリシー: [`common-pages/kessan-quest/privacy-policy.html`](https://yaeok.github.io/common-pages/kessan-quest/privacy-policy.html)
+- 利用規約: [`common-pages/kessan-quest/terms.html`](https://yaeok.github.io/common-pages/kessan-quest/terms.html)
+- サポート: [`common-pages/kessan-quest/support.html`](https://yaeok.github.io/common-pages/kessan-quest/support.html)
+- 改善要望・不具合報告: [`common-pages/kessan-quest/feedback.html`](https://yaeok.github.io/common-pages/kessan-quest/feedback.html)
+- 端末データ削除: [`common-pages/kessan-quest/account-deletion.html`](https://yaeok.github.io/common-pages/kessan-quest/account-deletion.html)
+
+`/common-pages/` は別の GitHub Pages サイトです。公開元は [yaeok/common-pages の `kessan-quest/`](https://github.com/yaeok/common-pages/tree/main/kessan-quest) です。
+[既存のURL](https://yaeok.github.io/kessan-quest/) は iOS アプリと App Store Connect が参照しているため、引き続き配信します。更新時は公開元とこのリポジトリの両方の配置に反映し、`diff -qr common-pages/kessan-quest kessan-quest` で内容が一致することを確認してください。
 
 ## えほんばこ（`ehonbako`）
 
