@@ -4,12 +4,12 @@
 
 ## 決算クエスト
 
-- 入口: [`common-pages/kessan-quest/index.html`](https://yaeok.github.io/common-pages/kessan-quest/)
-- プライバシーポリシー: [`common-pages/kessan-quest/privacy-policy.html`](https://yaeok.github.io/common-pages/kessan-quest/privacy-policy.html)
-- 利用規約: [`common-pages/kessan-quest/terms.html`](https://yaeok.github.io/common-pages/kessan-quest/terms.html)
-- サポート: [`common-pages/kessan-quest/support.html`](https://yaeok.github.io/common-pages/kessan-quest/support.html)
-- 改善要望・不具合報告: [`common-pages/kessan-quest/feedback.html`](https://yaeok.github.io/common-pages/kessan-quest/feedback.html)
-- 端末データ削除: [`common-pages/kessan-quest/account-deletion.html`](https://yaeok.github.io/common-pages/kessan-quest/account-deletion.html)
+- 入口: [`kessan-quest/index.html`](https://yaeok.github.io/kessan-quest/)
+- プライバシーポリシー: [`kessan-quest/privacy-policy.html`](https://yaeok.github.io/kessan-quest/privacy-policy.html)
+- 利用規約: [`kessan-quest/terms.html`](https://yaeok.github.io/kessan-quest/terms.html)
+- サポート: [`kessan-quest/support.html`](https://yaeok.github.io/kessan-quest/support.html)
+- 改善要望・不具合報告: [`kessan-quest/feedback.html`](https://yaeok.github.io/kessan-quest/feedback.html)
+- 端末データ削除: [`kessan-quest/account-deletion.html`](https://yaeok.github.io/kessan-quest/account-deletion.html)
 
 ## えほんばこ（`ehonbako`）
 
