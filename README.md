@@ -2,6 +2,13 @@
 
 個人開発アプリ向けのプライバシーポリシー、利用規約、サポートページを公開するGitHub Pagesリポジトリです。
 
+## 決算クエスト
+
+- 入口: [`common-pages/kessan-quest/index.html`](https://yaeok.github.io/common-pages/kessan-quest/)
+- プライバシーポリシー: [`common-pages/kessan-quest/privacy-policy.html`](https://yaeok.github.io/common-pages/kessan-quest/privacy-policy.html)
+- 利用規約: [`common-pages/kessan-quest/terms.html`](https://yaeok.github.io/common-pages/kessan-quest/terms.html)
+- サポート: [`common-pages/kessan-quest/support.html`](https://yaeok.github.io/common-pages/kessan-quest/support.html)
+
 ## えほんばこ（`ehonbako`）
 
 - 入口: [`common-pages/ehonbako/index.html`](https://yaeok.github.io/common-pages/ehonbako/)
