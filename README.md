@@ -9,7 +9,7 @@
 - 利用規約: [`common-pages/kessan-quest/terms.html`](https://yaeok.github.io/common-pages/kessan-quest/terms.html)
 - サポート: [`common-pages/kessan-quest/support.html`](https://yaeok.github.io/common-pages/kessan-quest/support.html)
 - 改善要望・不具合報告: [`common-pages/kessan-quest/feedback.html`](https://yaeok.github.io/common-pages/kessan-quest/feedback.html)
-- アカウント・データ削除: [`common-pages/kessan-quest/account-deletion.html`](https://yaeok.github.io/common-pages/kessan-quest/account-deletion.html)
+- 端末データ削除: [`common-pages/kessan-quest/account-deletion.html`](https://yaeok.github.io/common-pages/kessan-quest/account-deletion.html)
 
 ## えほんばこ（`ehonbako`）
 
