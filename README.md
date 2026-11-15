@@ -1,5 +1,14 @@
 # yaeok.github.io
 
+## I did it
+
+- トップ: https://yaeok.github.io/common-pages/i-did-it/
+- プライバシーポリシー: https://yaeok.github.io/common-pages/i-did-it/privacy-policy.html
+- 利用規約: https://yaeok.github.io/common-pages/i-did-it/terms.html
+- サポート: https://yaeok.github.io/common-pages/i-did-it/support.html
+- 要望・不具合: https://yaeok.github.io/common-pages/i-did-it/feedback.html
+- データ削除: https://yaeok.github.io/common-pages/i-did-it/data-deletion.html
+
 個人開発アプリ向けのプライバシーポリシー、利用規約、サポートページを公開するGitHub Pagesリポジトリです。
 
 ## 決算クエスト
