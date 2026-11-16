@@ -25,6 +25,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Create stable I did it aliases
+        run: |
+          cp common-pages/i-did-it/privacy-policy.html i-did-it-privacy-policy.html
+          cp common-pages/i-did-it/terms.html i-did-it-terms.html
+          cp common-pages/i-did-it/support.html i-did-it-support.html
+          cp common-pages/i-did-it/feedback.html i-did-it-feedback.html
+          cp common-pages/i-did-it/data-deletion.html i-did-it-data-deletion.html
+          cp common-pages/i-did-it/styles.css i-did-it-styles.css
+          sed -i 's|href="styles.css"|href="i-did-it-styles.css"|g' i-did-it-*.html
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
