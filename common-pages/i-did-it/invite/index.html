@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff8ef" />
+    <title>I did it｜家族からの招待</title>
+    <link rel="icon" href="../favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .invite-card { max-width: 34rem; margin: 12vh auto 0; text-align: center; }
+      .invite-mark { font-size: 3rem; margin-bottom: 1rem; }
+      .invite-code { display: inline-block; margin: 1rem 0 1.5rem; padding: .7rem 1rem; border: 1px solid #dfcfc0; border-radius: .75rem; font-size: 1.25rem; font-weight: 700; letter-spacing: .12em; }
+      .invite-actions { display: grid; gap: .75rem; }
+      .invite-button { display: block; padding: .95rem 1rem; border: 0; border-radius: .75rem; background: #bd5343; color: white; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+      .invite-button.secondary { background: transparent; color: #713d35; border: 1px solid #dfcfc0; }
+      .invite-note { margin-top: 1rem; color: #725f57; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <main class="invite-card">
+      <div class="invite-mark" aria-hidden="true">🖐️</div>
+      <h1>I did itに招待されています</h1>
+      <p>アプリを開くと、家族の成長カードに参加できます。</p>
+      <div id="invite-code" class="invite-code">--------</div>
+      <div class="invite-actions">
+        <a id="open-app" class="invite-button" href="#">I did itを開く</a>
+        <button id="copy-code" class="invite-button secondary" type="button">招待コードをコピー</button>
+        <a class="invite-button secondary" href="https://apps.apple.com/app/id6835311816">App Storeから入手</a>
+      </div>
+      <p id="status" class="invite-note">アプリが開かない場合は、招待コードをコピーしてください。</p>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const rawCode = (params.get('code') || '').trim().toUpperCase();
+      const code = /^[2-9A-HJ-NP-Z]{8}$/.test(rawCode) ? rawCode : '';
+      const deepLink = code ? `ididit://invite?code=${encodeURIComponent(code)}` : 'ididit://invite';
+      const codeElement = document.getElementById('invite-code');
+      const openButton = document.getElementById('open-app');
+      const copyButton = document.getElementById('copy-code');
+      const status = document.getElementById('status');
+
+      codeElement.textContent = code || 'コードがありません';
+      openButton.href = deepLink;
+      copyButton.disabled = !code;
+      copyButton.addEventListener('click', async () => {
+        if (!code) return;
+        await navigator.clipboard.writeText(code);
+        status.textContent = '招待コードをコピーしました。';
+      });
+
+      if (code) window.location.replace(deepLink);
+    </script>
+  </body>
+</html>
