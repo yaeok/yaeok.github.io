@@ -32,8 +32,9 @@ jobs:
           cp common-pages/i-did-it/support.html i-did-it-support.html
           cp common-pages/i-did-it/feedback.html i-did-it-feedback.html
           cp common-pages/i-did-it/data-deletion.html i-did-it-data-deletion.html
+          cp common-pages/i-did-it/invite/index.html i-did-it-invite.html
           cp common-pages/i-did-it/styles.css i-did-it-styles.css
-          sed -i 's|href="styles.css"|href="i-did-it-styles.css"|g' i-did-it-*.html
+          sed -i 's|href="../styles.css"|href="i-did-it-styles.css"|g; s|href="styles.css"|href="i-did-it-styles.css"|g' i-did-it-*.html
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
