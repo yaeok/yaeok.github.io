@@ -27,24 +27,26 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Create stable I did it aliases
         run: |
+          cp common-pages/i-did-it/index.html i-did-it.html
           cp common-pages/i-did-it/privacy-policy.html i-did-it-privacy-policy.html
           cp common-pages/i-did-it/terms.html i-did-it-terms.html
           cp common-pages/i-did-it/support.html i-did-it-support.html
           cp common-pages/i-did-it/feedback.html i-did-it-feedback.html
           cp common-pages/i-did-it/data-deletion.html i-did-it-data-deletion.html
           cp common-pages/i-did-it/invite/index.html i-did-it-invite.html
+          cp common-pages/i-did-it/favicon.svg i-did-it-favicon.svg
           cp common-pages/i-did-it/styles.css i-did-it-styles.css
           sed -i \
             -e 's|href="../styles.css"|href="i-did-it-styles.css"|g' \
             -e 's|href="styles.css"|href="i-did-it-styles.css"|g' \
-            -e 's|href="../favicon.svg"|href="common-pages/i-did-it/favicon.svg"|g' \
-            -e 's|href="favicon.svg"|href="common-pages/i-did-it/favicon.svg"|g' \
-            -e 's|href="index.html"|href="common-pages/i-did-it/"|g' \
-            -e 's|href="privacy-policy.html"|href="common-pages/i-did-it/privacy-policy.html"|g' \
-            -e 's|href="terms.html"|href="common-pages/i-did-it/terms.html"|g' \
-            -e 's|href="support.html"|href="common-pages/i-did-it/support.html"|g' \
-            -e 's|href="feedback.html"|href="common-pages/i-did-it/feedback.html"|g' \
-            -e 's|href="data-deletion.html"|href="common-pages/i-did-it/data-deletion.html"|g' \
+            -e 's|href="../favicon.svg"|href="i-did-it-favicon.svg"|g' \
+            -e 's|href="favicon.svg"|href="i-did-it-favicon.svg"|g' \
+            -e 's|href="index.html"|href="i-did-it.html"|g' \
+            -e 's|href="privacy-policy.html"|href="i-did-it-privacy-policy.html"|g' \
+            -e 's|href="terms.html"|href="i-did-it-terms.html"|g' \
+            -e 's|href="support.html"|href="i-did-it-support.html"|g' \
+            -e 's|href="feedback.html"|href="i-did-it-feedback.html"|g' \
+            -e 's|href="data-deletion.html"|href="i-did-it-data-deletion.html"|g' \
             i-did-it-*.html
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
