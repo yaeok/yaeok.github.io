@@ -47,7 +47,7 @@ jobs:
             -e 's|href="support.html"|href="i-did-it-support.html"|g' \
             -e 's|href="feedback.html"|href="i-did-it-feedback.html"|g' \
             -e 's|href="data-deletion.html"|href="i-did-it-data-deletion.html"|g' \
-            i-did-it-*.html
+            i-did-it.html i-did-it-*.html
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
