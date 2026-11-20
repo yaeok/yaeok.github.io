@@ -36,9 +36,11 @@ jobs:
           cp common-pages/i-did-it/invite/index.html i-did-it-invite.html
           cp common-pages/i-did-it/favicon.svg i-did-it-favicon.svg
           cp common-pages/i-did-it/styles.css i-did-it-styles.css
+          cp common-pages/i-did-it/typography.css i-did-it-typography.css
           sed -i \
             -e 's|href="../styles.css"|href="i-did-it-styles.css"|g' \
             -e 's|href="styles.css"|href="i-did-it-styles.css"|g' \
+            -e 's|href="typography.css"|href="i-did-it-typography.css"|g' \
             -e 's|href="../favicon.svg"|href="i-did-it-favicon.svg"|g' \
             -e 's|href="favicon.svg"|href="i-did-it-favicon.svg"|g' \
             -e 's|href="index.html"|href="i-did-it.html"|g' \
