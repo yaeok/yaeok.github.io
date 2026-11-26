@@ -44,3 +44,9 @@
 - 利用規約: [`common-pages/otsuri-master/terms.html`](https://yaeok.github.io/common-pages/otsuri-master/terms.html)
 - サポート: [`common-pages/otsuri-master/support.html`](https://yaeok.github.io/common-pages/otsuri-master/support.html)
 - 改善要望・不具合報告: [`common-pages/otsuri-master/feedback.html`](https://yaeok.github.io/common-pages/otsuri-master/feedback.html)
+
+## ひらめきオービット
+
+- 遊び方とサポート　[common-pages/hirameki-orbit/index.html](https://yaeok.github.io/common-pages/hirameki-orbit/index.html)
+- プライバシーポリシー　[common-pages/hirameki-orbit/privacy-policy.html](https://yaeok.github.io/common-pages/hirameki-orbit/privacy-policy.html)
+- サポート・お問い合わせ　[common-pages/hirameki-orbit/support.html](https://yaeok.github.io/common-pages/hirameki-orbit/support.html)
