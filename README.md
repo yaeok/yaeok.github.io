@@ -47,6 +47,6 @@
 
 ## ひらめきオービット
 
-- 遊び方とサポート　[common-pages/hirameki-orbit/index.html](https://yaeok.github.io/common-pages/hirameki-orbit/index.html)
-- プライバシーポリシー　[common-pages/hirameki-orbit/privacy-policy.html](https://yaeok.github.io/common-pages/hirameki-orbit/privacy-policy.html)
-- サポート・お問い合わせ　[common-pages/hirameki-orbit/support.html](https://yaeok.github.io/common-pages/hirameki-orbit/support.html)
+- 遊び方とサポート　[common-pages/hirameki-orbit/index.html](https://yaeok.github.io/hirameki-orbit/index.html)
+- プライバシーポリシー　[common-pages/hirameki-orbit/privacy-policy.html](https://yaeok.github.io/hirameki-orbit/privacy-policy.html)
+- サポート・お問い合わせ　[common-pages/hirameki-orbit/support.html](https://yaeok.github.io/hirameki-orbit/support.html)
