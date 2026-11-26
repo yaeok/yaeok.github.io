@@ -50,3 +50,6 @@
 - 遊び方とサポート　[common-pages/hirameki-orbit/index.html](https://yaeok.github.io/hirameki-orbit/index.html)
 - プライバシーポリシー　[common-pages/hirameki-orbit/privacy-policy.html](https://yaeok.github.io/hirameki-orbit/privacy-policy.html)
 - サポート・お問い合わせ　[common-pages/hirameki-orbit/support.html](https://yaeok.github.io/hirameki-orbit/support.html)
+- 利用条件　[common-pages/hirameki-orbit/terms.html](https://yaeok.github.io/hirameki-orbit/terms.html)
+- 不具合・ご要望　[common-pages/hirameki-orbit/support.html#feedback](https://yaeok.github.io/hirameki-orbit/support.html#feedback)
+- ランキング記録の削除相談　[common-pages/hirameki-orbit/support.html#deletion](https://yaeok.github.io/hirameki-orbit/support.html#deletion)
