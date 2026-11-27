@@ -45,7 +45,7 @@
 - サポート: [`common-pages/otsuri-master/support.html`](https://yaeok.github.io/common-pages/otsuri-master/support.html)
 - 改善要望・不具合報告: [`common-pages/otsuri-master/feedback.html`](https://yaeok.github.io/common-pages/otsuri-master/feedback.html)
 
-## ひらめきオービット
+## アストロラッシュ
 
 - 遊び方とサポート　[common-pages/hirameki-orbit/index.html](https://yaeok.github.io/hirameki-orbit/index.html)
 - プライバシーポリシー　[common-pages/hirameki-orbit/privacy-policy.html](https://yaeok.github.io/hirameki-orbit/privacy-policy.html)
